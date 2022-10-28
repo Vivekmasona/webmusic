@@ -1,0 +1,82 @@
+.link {
+  text-decoration: none;
+}
+
+.nav-drawer {
+  width: 25%;
+  flex-shrink: 0;
+}
+
+.button {
+  width: 100%;
+  appearance: none;
+  color: #1976d2;
+  fill: #1976d2;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.75;
+  vertical-align: middle;
+}
+
+.button p {
+  margin: 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.button-active {
+  width: 100%;
+  appearance: none;
+  background-color: rgb(25 118 210);
+  border-radius: 0%;
+  color: #fff;
+  fill: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.75;
+  vertical-align: middle;
+}
+
+.button-active p {
+  margin: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .button p {
+    font-size: 0.7rem;
+  }
+
+  .button-active p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .button p {
+    font-size: 0.5rem;
+  }
+
+  .button-active p {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .button p {
+    font-size: 0.4rem;
+  }
+
+  .button-active p {
+    font-size: 0.4rem;
+  }
+
+  .icon {
+    width: 15px;
+    height: 15px;
+  }
+}
