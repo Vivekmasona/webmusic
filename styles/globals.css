@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--background);
+  color: black;
+  font-family: var(--font-family);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+:root {
+  --primary: #3c78fac4;
+  --background: #99b9fdc4;
+  --text-secondary: rgb(0 0 0 / 60%);
+  --font-family: sans-serif;
+}
